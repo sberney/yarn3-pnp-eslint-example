@@ -1,0 +1,9 @@
+{
+  "name": "yarn3-pnp-eslint-example",
+  "version": "1.0.0",
+  "description": "Is eslint compatible with yarn PNP?",
+  "main": "index.js",
+  "repository": "git@github.com:sberney/yarn3-pnp-eslint-example.git",
+  "author": "Sam Berney <sam@samuelberney.com>",
+  "license": "MIT"
+}
