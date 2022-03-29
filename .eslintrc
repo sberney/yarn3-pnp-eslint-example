@@ -1,3 +1,6 @@
 {
-  "extends": "eslint-config-i-am-meticulous"
+  "extends": "eslint-config-i-am-meticulous",
+  "rules": {
+    "import/no-unresolved": "error"
+  }
 }

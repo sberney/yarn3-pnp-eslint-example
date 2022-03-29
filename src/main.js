@@ -1,4 +1,7 @@
+import blah from 'blah';
+
 import { registerRoutes } from './some-routes.js';
+import { foo } from './foo.js';
 
 import express from 'express';
 
@@ -8,6 +11,7 @@ app.get('/', (req, res) => {
 });
 
 registerRoutes(app);
+foo(app);
 
 const port = process.env.PORT || 3000;
 console.log('Starting server...');
